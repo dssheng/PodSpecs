@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kuaikan' => 'Kuaikan World (Beijing) Technology CO., Ltd.' }
-  s.source           = { :http => 'http://aopsdkdownload.cn-hangzhou.alipay-pub.aliyun-inc.com/demo/KuaikanSDK_No_UTDID.zip?spm=a219a.7629140.0.0.apYeja&file=KuaikanSDK_No_UTDID.zip' }
+  s.source           = { :http => 'https://github.com/dssheng/PodSpecs/raw/master/KuaikanSDK.framework.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
