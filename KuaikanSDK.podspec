@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KuaikanSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0'
   s.summary          = 'Kuaikan SDK'
 
 # This description is used to generate tags and improve search results.
@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
 
   # s.source_files = 'ios/*',
-  s.public_header_files = '**/KuaikanSDK.h', '**/KWAuth.h', '**/KWUser.h'
-  s.vendored_frameworks = "**/KuaikanSDK.framework"
+  s.public_header_files = '**/Header/*.h', '**/KWAuth.h', '**/KWUser.h'
+  s.vendored_frameworks = "KuaikanSDK.framework"
   s.resources = "ios/KuaikanSDK.bundle"
   # s.resource_bundles = {
   #   'MTA' => ['MTA/Assets/*.png']
